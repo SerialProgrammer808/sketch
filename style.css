@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bottom {
+    display: flex;
+    height: 100%;
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 30px;
+}
+
+/*make divs take up equal space and gives an outline*/
+.sketchpad {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    outline: 1px solid black;
+}
+
+.sketchpad div {
+    outline: 1px solid rgba(128, 128, 128, 0.118);
+}
+
+.column {
+    width: 1.5625%;
+}
+
+.column div {
+    height: 1.5625%;
+}
